@@ -65,7 +65,7 @@ binary_sensor:
     pin:
       number: GPIO13
       #mode: INPUT_PULLUP # only needed on older versions of this plug
-      inverted: True      
+      inverted: True
     name: "${friendly_name} Button"
     internal: false # set to true to hide from hub
     on_click:
@@ -137,7 +137,7 @@ binary_sensor:
     pin:
       number: GPIO13
       #mode: INPUT_PULLUP # only needed on older versions of this plug
-      inverted: True      
+      inverted: True
     name: "${friendly_name} Button"
     internal: false # set to true to hide from hub
     on_click:
